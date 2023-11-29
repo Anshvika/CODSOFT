@@ -1,65 +1,66 @@
-<!doctype html>
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>Pure CSS Landing Page Design</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<div class="open">
-		<div class="layer"></div>
-		<div class="layer"></div>
-	</div>
-	<section>
-		<div class="header">
-			<h2 class="logo">Creativity</h2>
-			<ul>
-				<li>
-					<a href="#" class="active">Home</a>
-				</li>
-				<li>
-					<a href="#" class="active">About</a>
-				</li>
-				<li>
-					<a href="#" class="active">Services</a>
-				</li>
-				<li>
-					<a href="#" class="active">Our Work</a>
-				</li>
-				<li>
-					<a href="#" class="active">Portfolio</a>
-				</li>
-				<li>
-					<a href="#" class="active">Contact</a>
-				</li>
-			</ul>
-		</div>
-		<div class="bannerText">
-			<h2>Think Creative</h2><br>
-			<h3>And Make Innovative Design</h3>
-			<p>Creativity is a multifaceted and dynamic aspect of human cognition that involves the generation of novel
-				ideas, solutions, and expressions. It is the ability to think outside the conventional boundaries,
-				transcending established norms to bring forth original and innovative concepts. Creativity is not
-				confined to artistic endeavors; it permeates every facet of human existence, from problem-solving in
-				scientific research to devising inventive business strategies. It thrives on the synergy of diverse
-				perspectives, drawing inspiration from a wide array of experiences, disciplines, and cultures. The
-				creative process often involves a delicate balance of divergent thinking, where numerous possibilities
-				are explored, and convergent thinking, where those ideas are refined into a cohesive form. Cultivating
-				creativity requires an open mind, a willingness to take risks, and the courage to challenge the status
-				quo. It is a powerful force that fuels progress, fosters adaptability, and enriches the human experience
-				by pushing the boundaries of what is possible. Embracing and nurturing creativity not only enhances
-				individual potential but also contributes to the collective ingenuity of societies, driving positive
-				change and innovation.
-			</p>
-			<a href="#">Read More</a>
-		</div>
-		<img src="bulb.jpg" class="bulb">
-		<ul class="sci">
-			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-		</ul>
-	</section>
+  <header>
+    <div class="container">
+      <nav class="flex items-centre justify-between">
+        <div class="left flex justfiy-right">
+          <div class="logo">
+            <img src="img.webp" width="50px" alt="logo">
+          </div>
+          <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a></li>
+            <a href="#">More</a>
+          </div>
+        </div>
+        <div class="right">
+          <button class="btn btn-primary">Contact</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="hero flex items-centre justify-between">
+    <div class="left flex-1 justify-center">
+      <img src="pic.png" alt="Profile">
+    </div>
+    <div class="right flex-1">
+      <h6>Anshvika kohli</h6>
+      <h1>I'm a Web<br> <span>Developer</span></h1>
+      <p>As a web developer, my journey in the digital realm has been a dynamic exploration of creativity
+        and precision. With a passion for crafting seamless and visually appealing online experiences, I have
+        honed my skills in front-end and back-end development. My proficiency includes a mastery of HTML, CSS, a
+        nd JavaScript to sculpt the user interface with elegance and responsiveness.</p>
+      <div>
+        <button class="btn btn-secondary">DOWNLOAD CV</button>
+      </div>
+    </div>
+  </div>
+
+  </section>
+  <section class="services">
+    <div class="container">
+      <h1 class="services-head">Services</h1>
+      <p>All your digital needs... covered.</p>
+      <div class="card-grid">
+        <div class="card">
+          <img src="web.jpg">
+          <h2>Web Development</h2>
+          <p>Web development involves building and maintaining websites or web applications. </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
